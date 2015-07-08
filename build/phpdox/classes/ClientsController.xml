@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="ClientsController" namespace="" name="ClientsController" abstract="false" final="false" start="3" end="171">
+  <file path="../app/controllers" file="ClientsController.php" realpath="/var/www/html/ribbbon/src/app/controllers/ClientsController.php" size="3924" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="c3f9cc01f16616ffa40dbe067c3eed89a7c0ab15"/>
+  <extends full="BaseController" namespace="" name="BaseController"/>
+  <method name="index" start="11" end="21" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Display a listing of the resource.">GET /clients</description>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="create" start="29" end="53" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Show the form for creating a new resource.">GET /clients/create</description>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <inline>
+      <comment value="Validation" line="36"/>
+    </inline>
+  </method>
+  <method name="show" start="62" end="77" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Display the specified resource.">GET /clients/{id}</description>
+      <param type="int" variable="$id"/>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="Bust be refactored as a filter" line="67"/>
+    </inline>
+  </method>
+  <method name="edit" start="86" end="92" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Show the form for editing the specified resource.">GET /clients/{id}/edit</description>
+      <param type="int" variable="$id"/>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="update" start="101" end="134" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Update the specified resource in storage.">PUT /clients/{id}</description>
+      <param type="int" variable="$id"/>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="Validation" line="108"/>
+    </inline>
+  </method>
+  <method name="destroy" start="143" end="169" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Remove the specified resource from storage.">DELETE /clients/{id}</description>
+      <param type="int" variable="$id"/>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="delete all related tasks and credentials" line="150"/>
+      <comment value="delete related projects" line="157"/>
+      <comment value="delete client" line="160"/>
+      <comment value="----------------------------------------------------" line="163"/>
+    </inline>
+  </method>
+  <parent full="BaseController" namepsace="" name="BaseController">
+    <extends full="Controller" namespace="" name="Controller"/>
+    <method name="setupLayout" start="10" end="16" abstract="false" final="false" static="false" visibility="protected">
+      <docblock>
+        <description compact="Setup the layout used by the controller."/>
+        <return type="object">
+          <type full="void" namespace="" name="void"/>
+        </return>
+      </docblock>
+    </method>
+  </parent>
+</class>

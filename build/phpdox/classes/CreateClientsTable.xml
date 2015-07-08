@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="CreateClientsTable" namespace="" name="CreateClientsTable" abstract="false" final="false" start="6" end="35">
+  <file path="../app/database/migrations" file="2014_08_09_052124_create_clients_table.php" realpath="/var/www/html/ribbbon/src/app/database/migrations/2014_08_09_052124_create_clients_table.php" size="523" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="cfeff56574da500b00bb5723875c268d9a714bef"/>
+  <extends full="Illuminate\Database\Migrations\Migration" namespace="Illuminate\Database\Migrations" name="Migration"/>
+  <method name="up" start="13" end="22" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Run the migrations."/>
+      <return type="object">
+        <type full="void" namespace="" name="void"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="down" start="30" end="33" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Reverse the migrations."/>
+      <return type="object">
+        <type full="void" namespace="" name="void"/>
+      </return>
+    </docblock>
+  </method>
+</class>

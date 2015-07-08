@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="TasksTableSeeder" namespace="" name="TasksTableSeeder" abstract="false" final="false" start="6" end="23">
+  <file path="../app/database/seeds" file="TasksTableSeeder.php" realpath="/var/www/html/ribbbon/src/app/database/seeds/TasksTableSeeder.php" size="420" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="e4832d24073cfcecf531a1347fc91ad1cb22cf65"/>
+  <extends full="Seeder" namespace="" name="Seeder"/>
+  <method name="run" start="8" end="22" abstract="false" final="false" static="false" visibility="public"/>
+</class>

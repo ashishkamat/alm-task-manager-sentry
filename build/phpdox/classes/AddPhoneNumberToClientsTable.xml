@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="AddPhoneNumberToClientsTable" namespace="" name="AddPhoneNumberToClientsTable" abstract="false" final="false" start="6" end="35">
+  <file path="../app/database/migrations" file="2014_08_28_023252_add_phone_number_to_clients_table.php" realpath="/var/www/html/ribbbon/src/app/database/migrations/2014_08_28_023252_add_phone_number_to_clients_table.php" size="499" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="b2d103b460c5e7d607a9b1453292e8d2867a05d5"/>
+  <extends full="Illuminate\Database\Migrations\Migration" namespace="Illuminate\Database\Migrations" name="Migration"/>
+  <method name="up" start="13" end="19" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Run the migrations."/>
+      <return type="object">
+        <type full="void" namespace="" name="void"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="down" start="27" end="33" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Reverse the migrations."/>
+      <return type="object">
+        <type full="void" namespace="" name="void"/>
+      </return>
+    </docblock>
+  </method>
+</class>

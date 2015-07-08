@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Beta" namespace="" name="Beta" abstract="false" final="false" start="3" end="8">
+  <file path="../app/models" file="Beta.php" realpath="/var/www/html/ribbbon/src/app/models/Beta.php" size="97" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="e43146a63ea00dab8cf71e42c67a984df51a17ed"/>
+  <extends full="Eloquent" namespace="" name="Eloquent"/>
+  <member name="fillable" type="array" visibility="protected" line="4"/>
+  <member name="table" type="string" default="'beta'" visibility="protected" line="5"/>
+</class>

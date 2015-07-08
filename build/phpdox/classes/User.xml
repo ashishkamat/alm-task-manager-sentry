@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="User" namespace="" name="User" abstract="false" final="false" start="8" end="91">
+  <file path="../app/models" file="User.php" realpath="/var/www/html/ribbbon/src/app/models/User.php" size="2588" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="882a35fa5e75cb39a2e6845e91e9ba369fef4e4f"/>
+  <extends full="Eloquent" namespace="" name="Eloquent"/>
+  <implements full="Illuminate\Auth\UserInterface" namespace="Illuminate\Auth" name="UserInterface"/>
+  <implements full="Illuminate\Auth\Reminders\RemindableInterface" namespace="Illuminate\Auth\Reminders" name="RemindableInterface"/>
+  <member name="table" type="string" default="'users'" visibility="protected" line="17">
+    <docblock>
+      <description compact="The database table used by the model."/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="hidden" type="array" visibility="protected" line="24">
+    <docblock>
+      <description compact="The attributes excluded from the model's JSON form."/>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <method name="clients" start="30" end="32" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return the related clients for a given user"/>
+    </docblock>
+  </method>
+  <method name="projects" start="37" end="39" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return the related projects for a given user"/>
+    </docblock>
+  </method>
+  <method name="tasks" start="44" end="46" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return the related tasks for a given user"/>
+    </docblock>
+  </method>
+  <method name="inProjects" start="48" end="50" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="weight" start="57" end="64" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Get the total weight of a user"/>
+      <param description="[the id of the user]" type="object" variable="$id">
+        <type full="[int]" namespace="" name="[int]"/>
+      </param>
+      <return description="[the total weight of all the incomplete tasks a user has]" type="object">
+        <type full="[int]" namespace="" name="[int]"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="get_gravatar" start="78" end="89" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Get either a Gravatar URL or complete image tag for a specified email address."/>
+      <param description="The email address" type="string" variable="$email"/>
+      <param description="Size in pixels, defaults to 80px [ 1 - 2048 ]" type="string" variable="$s"/>
+      <param description="Default imageset to use [ 404 | mm | identicon | monsterid | wavatar ]" type="string" variable="$d"/>
+      <param description="Maximum rating (inclusive) [ g | pg | r | x ]" type="string" variable="$r"/>
+      <param description="True to return a complete IMG tag False for just the URL" type="object" variable="$img">
+        <type full="boole" namespace="" name="boole"/>
+      </param>
+      <param description="Optional, additional key/value attributes to include in the IMG tag" type="array" variable="$atts"/>
+      <return description="containing either just a URL or a complete image tag" type="object">
+        <type full="String" namespace="" name="String"/>
+      </return>
+      <source value="http://gravatar.com/site/implement/images/php/"/>
+    </docblock>
+    <parameter name="email" byreference="false" type="{unknown}"/>
+    <parameter name="s" byreference="false" type="integer" default="80"/>
+    <parameter name="d" byreference="false" type="string" default="'mm'"/>
+    <parameter name="r" byreference="false" type="string" default="'g'"/>
+    <parameter name="img" byreference="false" type="{unknown}" default="false"/>
+    <parameter name="atts" byreference="false" type="array"/>
+  </method>
+</class>

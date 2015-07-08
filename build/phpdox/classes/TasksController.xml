@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="TasksController" namespace="" name="TasksController" abstract="false" final="false" start="3" end="150">
+  <file path="../app/controllers" file="TasksController.php" realpath="/var/www/html/ribbbon/src/app/controllers/TasksController.php" size="2882" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="59c444cbc036958edd559f8bc1b6b8e3aa9d0040"/>
+  <extends full="BaseController" namespace="" name="BaseController"/>
+  <method name="index" start="11" end="20" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Display a listing of the resource.">GET /tasks</description>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="create" start="28" end="69" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Show the form for creating a new resource.">GET /tasks/create</description>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <inline>
+      <comment value="Rules" line="30"/>
+      <comment value="Custom messages" line="36"/>
+      <comment value="Create validation" line="42"/>
+      <comment value="Check validation" line="45"/>
+      <comment value="Insert the task to database" line="51"/>
+      <comment value="Increase the users overall task count" line="63"/>
+    </inline>
+  </method>
+  <method name="store" start="77" end="80" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Store a newly created resource in storage.">POST /tasks</description>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="show" start="89" end="92" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Display the specified resource.">GET /tasks/{id}</description>
+      <param type="int" variable="$id"/>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="edit" start="101" end="104" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Show the form for editing the specified resource.">GET /tasks/{id}/edit</description>
+      <param type="int" variable="$id"/>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="update" start="113" end="133" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Update the specified resource in storage.">PUT /tasks/{id}</description>
+      <param type="int" variable="$id"/>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="destroy" start="142" end="148" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Remove the specified resource from storage.">DELETE /tasks/{id}</description>
+      <param type="int" variable="$id"/>
+      <return type="object">
+        <type full="Response" namespace="" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+  </method>
+  <parent full="BaseController" namepsace="" name="BaseController">
+    <extends full="Controller" namespace="" name="Controller"/>
+    <method name="setupLayout" start="10" end="16" abstract="false" final="false" static="false" visibility="protected">
+      <docblock>
+        <description compact="Setup the layout used by the controller."/>
+        <return type="object">
+          <type full="void" namespace="" name="void"/>
+        </return>
+      </docblock>
+    </method>
+  </parent>
+</class>

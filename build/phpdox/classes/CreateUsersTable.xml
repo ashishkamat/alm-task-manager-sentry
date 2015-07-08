@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="CreateUsersTable" namespace="" name="CreateUsersTable" abstract="false" final="false" start="6" end="39">
+  <file path="../app/database/migrations" file="2014_08_09_063112_create_users_table.php" realpath="/var/www/html/ribbbon/src/app/database/migrations/2014_08_09_063112_create_users_table.php" size="655" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="8b642fcc18b4d5eabc71356bffad6d01ea15a39c"/>
+  <extends full="Illuminate\Database\Migrations\Migration" namespace="Illuminate\Database\Migrations" name="Migration"/>
+  <method name="up" start="13" end="26" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Run the migrations."/>
+      <return type="object">
+        <type full="void" namespace="" name="void"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="down" start="34" end="37" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Reverse the migrations."/>
+      <return type="object">
+        <type full="void" namespace="" name="void"/>
+      </return>
+    </docblock>
+  </method>
+</class>

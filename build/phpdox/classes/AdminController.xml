@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="AdminController" namespace="" name="AdminController" abstract="false" final="false" start="4" end="29">
+  <file path="../app/controllers" file="AdminController.php" realpath="/var/www/html/ribbbon/src/app/controllers/AdminController.php" size="684" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="031a3e725c525a1e9b64f3b4734bbafdd68c2a8c"/>
+  <extends full="BaseController" namespace="" name="BaseController"/>
+  <method name="invite" start="9" end="28" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sends beta invite email"/>
+    </docblock>
+  </method>
+  <parent full="BaseController" namepsace="" name="BaseController">
+    <extends full="Controller" namespace="" name="Controller"/>
+    <method name="setupLayout" start="10" end="16" abstract="false" final="false" static="false" visibility="protected">
+      <docblock>
+        <description compact="Setup the layout used by the controller."/>
+        <return type="object">
+          <type full="void" namespace="" name="void"/>
+        </return>
+      </docblock>
+    </method>
+  </parent>
+</class>

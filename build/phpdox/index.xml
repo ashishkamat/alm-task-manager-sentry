@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src#">
+  <namespace name="">
+    <class name="TestCase" src="../app/tests/TestCase.php" xml="classes/TestCase.xml"/>
+    <class name="ExampleTest" src="../app/tests/ExampleTest.php" xml="classes/ExampleTest.xml"/>
+    <class name="Upload" src="../app/models/Upload.php" xml="classes/Upload.xml"/>
+    <class name="Beta" src="../app/models/Beta.php" xml="classes/Beta.xml"/>
+    <class name="Projectuser" src="../app/models/Projectuser.php" xml="classes/Projectuser.xml"/>
+    <class name="Client" src="../app/models/Client.php" xml="classes/Client.xml"/>
+    <class name="Credential" src="../app/models/Credential.php" xml="classes/Credential.xml"/>
+    <class name="Project" src="../app/models/Project.php" xml="classes/Project.xml"/>
+    <class name="Task" src="../app/models/Task.php" xml="classes/Task.xml"/>
+    <class name="User" src="../app/models/User.php" xml="classes/User.xml"/>
+    <class name="CreateBetaTable" src="../app/database/migrations/2014_11_10_020932_create_beta_table.php" xml="classes/CreateBetaTable.xml"/>
+    <class name="CreateUsersTable" src="../app/database/migrations/2014_08_09_063112_create_users_table.php" xml="classes/CreateUsersTable.xml"/>
+    <class name="CreateCredentialsTable" src="../app/database/migrations/2014_11_15_040228_create_credentials_table.php" xml="classes/CreateCredentialsTable.xml"/>
+    <class name="CreateClientsTable" src="../app/database/migrations/2014_08_09_052124_create_clients_table.php" xml="classes/CreateClientsTable.xml"/>
+    <class name="AddPhoneNumberToClientsTable" src="../app/database/migrations/2014_08_28_023252_add_phone_number_to_clients_table.php" xml="classes/AddPhoneNumberToClientsTable.xml"/>
+    <class name="CreateTasksTable" src="../app/database/migrations/2014_09_08_015054_create_tasks_table.php" xml="classes/CreateTasksTable.xml"/>
+    <class name="CreateProjectsTable" src="../app/database/migrations/2014_08_30_065400_create_projects_table.php" xml="classes/CreateProjectsTable.xml"/>
+    <class name="AddRememberTokenToUsersTable" src="../app/database/migrations/2014_08_21_181811_add_remember_token_to_users_table.php" xml="classes/AddRememberTokenToUsersTable.xml"/>
+    <class name="AddEmailToClientsTable" src="../app/database/migrations/2014_08_28_230406_add_email_to_clients_table.php" xml="classes/AddEmailToClientsTable.xml"/>
+    <class name="CreateFilesTable" src="../app/database/migrations/2015_02_27_031522_create_files_table.php" xml="classes/CreateFilesTable.xml"/>
+    <class name="AddUrlsToProjectsTable" src="../app/database/migrations/2014_11_14_024037_add_urls_to_projects_table.php" xml="classes/AddUrlsToProjectsTable.xml"/>
+    <class name="CreateProjectUserTable" src="../app/database/migrations/2014_12_04_060354_create_project_user_table.php" xml="classes/CreateProjectUserTable.xml"/>
+    <class name="AddPointOfContactToClientsTable" src="../app/database/migrations/2014_08_28_023852_add_point_of_contact_to_clients_table.php" xml="classes/AddPointOfContactToClientsTable.xml"/>
+    <class name="CredentialsTableSeeder" src="../app/database/seeds/CredentialsTableSeeder.php" xml="classes/CredentialsTableSeeder.xml"/>
+    <class name="TasksTableSeeder" src="../app/database/seeds/TasksTableSeeder.php" xml="classes/TasksTableSeeder.xml"/>
+    <class name="ClientsTableSeeder" src="../app/database/seeds/ClientsTableSeeder.php" xml="classes/ClientsTableSeeder.xml"/>
+    <class name="ProjectsTableSeeder" src="../app/database/seeds/ProjectsTableSeeder.php" xml="classes/ProjectsTableSeeder.xml"/>
+    <class name="UsersTableSeeder" src="../app/database/seeds/UsersTableSeeder.php" xml="classes/UsersTableSeeder.xml"/>
+    <class name="DatabaseSeeder" src="../app/database/seeds/DatabaseSeeder.php" xml="classes/DatabaseSeeder.xml"/>
+    <class name="ProjectsController" src="../app/controllers/ProjectsController.php" xml="classes/ProjectsController.xml"/>
+    <class name="TasksController" src="../app/controllers/TasksController.php" xml="classes/TasksController.xml"/>
+    <class name="FilesController" src="../app/controllers/FilesController.php" xml="classes/FilesController.xml"/>
+    <class name="ApiController" src="../app/controllers/ApiController.php" xml="classes/ApiController.xml"/>
+    <class name="ClientsController" src="../app/controllers/ClientsController.php" xml="classes/ClientsController.xml"/>
+    <class name="CredentialsController" src="../app/controllers/CredentialsController.php" xml="classes/CredentialsController.xml"/>
+    <class name="BaseController" src="../app/controllers/BaseController.php" xml="classes/BaseController.xml"/>
+    <class name="HomeController" src="../app/controllers/HomeController.php" xml="classes/HomeController.xml"/>
+    <class name="UsersController" src="../app/controllers/UsersController.php" xml="classes/UsersController.xml"/>
+    <class name="AdminController" src="../app/controllers/AdminController.php" xml="classes/AdminController.xml"/>
+  </namespace>
+</index>

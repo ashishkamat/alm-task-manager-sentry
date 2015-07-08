@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Upload" namespace="" name="Upload" abstract="false" final="false" start="3" end="14">
+  <file path="../app/models" file="Upload.php" realpath="/var/www/html/ribbbon/src/app/models/Upload.php" size="227" time="2015-07-03T18:49:32+05:30" unixtime="1435929572" sha1="c6a76491a12171ecbfb26ba558ad46fded5a8a7d"/>
+  <extends full="Eloquent" namespace="" name="Eloquent"/>
+  <member name="fillable" type="array" visibility="protected" line="4"/>
+  <method name="user" start="6" end="8" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="project" start="10" end="12" abstract="false" final="false" static="false" visibility="public"/>
+</class>
