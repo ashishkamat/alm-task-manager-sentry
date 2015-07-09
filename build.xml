@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Money" default="build">
+<project name="ALM Task Manager" default="build">
  <target name="build" depends="prepare,phploc,pdepend,phpmd,phpmd-ci,phpcs,phpcs-ci,phpunit,phpdox"/>
 
  <target name="clean" description="Cleanup build artifacts">
@@ -60,7 +60,7 @@
   <exec executable="${basedir}/build/tools/phpcs.phar">
    <arg value="--standard=PSR2" />
    <arg value="--extensions=php" />
-   <arg value="--ignore=autoload.php,vendor" />
+   <arg value="--ignore=vendor/autoload.php,vendor" />
    <arg path="${basedir}/app" />
    <arg path="${basedir}/app/tests" />
   </exec>
@@ -72,7 +72,7 @@
       <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
       <arg value="--standard=PSR2" />
       <arg value="--extensions=php" />
-      <arg value="--ignore=autoload.php,vendor/" />
+      <arg value="--ignore=vendor/autoload.php,vendor/" />
       <arg path="${basedir}/app" />
   </exec>
 </target>
