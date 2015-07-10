@@ -58,7 +58,7 @@
 
 <target name="phpcs" description="Find coding standard violations using PHP_CodeSniffer and print result in text format">
   <exec executable="${basedir}/build/tools/phpcs.phar">
-   <arg value="--standard=PSR2" />
+   <arg value="--standard=PSR1" />
    <arg value="--extensions=php" />
    <arg value="--ignore=vendor/autoload.php,vendor" />
    <arg path="${basedir}/app" />
@@ -70,7 +70,7 @@
    <exec executable="${basedir}/build/tools/phpcs.phar" output="/dev/null">
       <arg value="--report=checkstyle" />
       <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
-      <arg value="--standard=PSR2" />
+      <arg value="--standard=PSR1" />
       <arg value="--extensions=php" />
       <arg value="--ignore=vendor/autoload.php,vendor/" />
       <arg path="${basedir}/app" />
