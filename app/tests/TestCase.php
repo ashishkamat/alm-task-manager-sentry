@@ -3,7 +3,7 @@
 class TestCase extends Illuminate\Foundation\Testing\TestCase {
 
 	/**
-	 * Creates the application.
+	 * Let's Creates the application now.
 	 *
 	 * @return \Symfony\Component\HttpKernel\HttpKernelInterface
 	 */
