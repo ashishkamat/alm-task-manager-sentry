@@ -7,7 +7,7 @@ class ExampleTest extends TestCase {
 	 This is taking time...
 	 modified permissions
 	 *
-	 * @return void
+	 * @return void...
 	 */
 	public function testBasicExample()
 	{
