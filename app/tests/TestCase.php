@@ -5,7 +5,7 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase {
 	/**
 	 * Let's Creates the application now.
 	 *
-	 * @return \Symfony\Component\HttpKernel\HttpKernelInterface
+	 * @return \Symfony\Component\HttpKernel\HttpKernelInterface....
 	 */
 	public function createApplication()
 	{
