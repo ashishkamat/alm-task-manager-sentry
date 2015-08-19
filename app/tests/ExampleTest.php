@@ -3,7 +3,7 @@
 class ExampleTest extends TestCase {
 
 	/**
-	 * A basic functional test example.
+	 * A basic functional test example.A line is added
 	 *
 	 * @return void
 	 */
