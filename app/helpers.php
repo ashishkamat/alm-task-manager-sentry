@@ -1,7 +1,5 @@
 <?php
-// A helpers file
 
-// Added For demo purpose
 /**
  * Checks if a given user is the owner a given
  * project.
