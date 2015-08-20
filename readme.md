@@ -23,3 +23,4 @@ ALM Task Manager is a project managemnet system built on Laravel 4.2.*
 -   easy to setup
 
 done` added new feature again......!!!!
+It will work now...
