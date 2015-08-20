@@ -1,6 +1,4 @@
 <?php
-// A helpers file
-
 
 /**
  * Checks if a given user is the owner a given
