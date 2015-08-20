@@ -3,9 +3,7 @@
 class ExampleTest extends TestCase {
 
 	/**
-	 * A basic functional test example.A line is added...  ..!!
-	 This is taking time...
-	 modified permissions
+	 * 
 	 *
 	 * @return void...
 	 */
