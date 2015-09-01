@@ -1,6 +1,6 @@
-# ALM Task Manager
+# ALM Task Manager(ATM)
 
-ALM Task Manager is a project managemnet system built on Laravel 4.2.*
+-ALM Task Manager is a project managemnet system built on Laravel 4.2.*
 
 # Features
   - User / account creation
