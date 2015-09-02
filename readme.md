@@ -15,7 +15,7 @@
 
 
 #Installation
--   Clone the repo(with git clone url)
+-   Clone the repo(with git clone url! )
 -   Run composer install( or composer update )
 -   Run php artisan migrate
 -   Run php artisan db:seed
