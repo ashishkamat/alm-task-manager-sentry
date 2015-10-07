@@ -8,7 +8,7 @@
   - Project creation
   - Task creation 
   - Assigning weights to tasks
-  - unlimited file uploads
+  - file uploads
   - project sharing! 
 
 
