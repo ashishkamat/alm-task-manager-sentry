@@ -3,6 +3,8 @@
 class Project extends \Eloquent {
 	protected $fillable = [];
     var $a=10;
+	var $b=20;
+	
 	public function tasks(){
 		return $this->hasMany('Task', 'project_id');
 	}
