@@ -1,5 +1,7 @@
 <?php
 
+require_once 'vendor/raven/raven/lib/Raven/Autoloader.php';
+Raven_Autoloader::register();
 /*
 |--------------------------------------------------------------------------
 | Register The Laravel Class Loader
@@ -17,6 +19,7 @@ ClassLoader::addDirectories(array(
 	app_path().'/controllers',
 	app_path().'/models',
 	app_path().'/database/seeds',
+
 
 ));
 
@@ -48,7 +51,30 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 
 App::error(function(Exception $exception, $code)
 {
+
+
+#    $client = new Raven_Client('https://964b2247b759421e99c5194b674e4ab5:e7ee336201d34292802790d99c7df08c@app.getsentry.com/63691');
+
+ #   $handler = new Monolog\Handler\RavenHandler($client);
+  #  $handler->setFormatter(new Monolog\Formatter\LineFormatter("%message% %context% %extra%\n"));
+   # $monolog = Log::getMonolog();
+#$monolog->pushHandler($handler);
+
 	Log::error($exception);
+	Log::debug('Here is some debug information');
+	Log::error('Something went wrong', [
+    'user' => ['name' => 'Ashish Kamat', 'email' => 'ashishka@cybage.com']
+]);
+Log::info('Task completed', [
+    'tags' => ['state' => 789]
+]);
+Log::warning('Something went wrong', [
+    'download_size' => 3432425235
+]);
+Log::debug('Event triggered', [
+    'foo' => 'bar',
+    'user' => 'Ashish'
+]);
 });
 
 /*

@@ -27,5 +27,9 @@ return array(
 		'model'  => 'User',
 		'secret' => '',
 	),
+	'raven' => [
+    'dsn'   => 'https://964b2247b759421e99c5194b674e4ab5:e7ee336201d34292802790d99c7df08c@app.getsentry.com/63691',
+    'level' => 'debug'
+     ]	,
 
 );
